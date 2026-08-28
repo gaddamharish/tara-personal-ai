@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node -r ./src/provider-bootstrap.js src/server.js",
     "dev": "nodemon src/server.js",
     "test": "node test.js",
     "lint": "eslint .",
