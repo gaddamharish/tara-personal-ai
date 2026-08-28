@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment — never commit secrets
+.env
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Personal deployment files — not for cloners
+# These contain owner-specific branding and are served from your Render instance only.
+# Cloners should build their own landing page and docs.
+public/index.html
+test-ai.js
+test-whatsapp.js
+CLAUDE.md
+migrations
+AI_CONTEXT.md
